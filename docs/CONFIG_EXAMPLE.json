@@ -1,0 +1,16 @@
+{
+  "modEnabled": true,
+  "healthIndicatorsEnabled": true,
+  "damagePopupsEnabled": true,
+  "healingPopupsEnabled": true,
+  "showHeartIcons": true,
+  "showExactValues": false,
+  "showAbsorptionAsGold": true,
+  "renderDistance": 24,
+  "maxTrackedEntities": 32,
+  "healthIndicatorAlpha": 255,
+  "popupOpacity": 255,
+  "showOnRecentHitOnly": false,
+  "showWhenLookingAtTarget": false,
+  "hitRevealTicks": 60
+}

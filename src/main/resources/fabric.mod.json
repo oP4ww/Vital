@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "vitalpopups",
+  "version": "${version}",
+  "name": "Vital",
+  "description": "Clean client-side target hearts with hit-trigger and look-target modes plus floating combat popups for Minecraft 26.1.1 on Fabric.",
+  "authors": [
+    "Chan",
+    "Op4ww"
+  ],
+  "license": "MIT",
+  "icon": "assets/vitalpopups/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.chan.vitalpopups.VitalPopupsClient"
+    ],
+    "modmenu": [
+      "com.chan.vitalpopups.VitalPopupsModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.6",
+    "minecraft": ">=26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": ">=18.0.0-alpha.8"
+  },
+  "custom": {
+    "modmenu": {
+      "update_checker": false
+    }
+  }
+}
